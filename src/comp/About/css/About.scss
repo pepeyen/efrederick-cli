@@ -1,0 +1,17 @@
+$primeColor: #e2f3f5;
+$secondaryColor: #3d5af1;
+$lightColor: #22d1ee;
+$strongColor: #0e153a;
+
+.about__title{
+    font-family: "Nunito Extra Bold";
+    color:  $strongColor;
+    font-size: 2.5rem;
+}
+@media only screen and (min-width: 769px) {
+    .about__title{
+        font-family: "Nunito Extra Bold";
+        color:  $strongColor;
+        font-size: 4.8vh;
+    }
+}

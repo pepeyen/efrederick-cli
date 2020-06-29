@@ -1,0 +1,35 @@
+$primeColor: #e2f3f5;
+$secondaryColor: #3d5af1;
+$strongColor: #0e153a;
+
+body{
+    background-color: $primeColor; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: $primeColor;
+    min-height: 50rem;
+    padding: 1rem;
+}
+.--right{
+    margin-left: auto;
+}
+.competences,.projects,.contact-me{
+    margin-top: 10rem;
+}
+@media only screen and (min-width: 769px) {
+    main{
+        min-height: 100vh;
+        padding: 3.25vh;
+    }
+    .about,.competences,.projects,.contact-me{
+        margin: unset;
+    }
+    .--right{
+        margin-left: auto;
+    }
+    .competences,.projects,.contact-me {
+        margin-top: 20vh;
+    }
+}

@@ -1,0 +1,102 @@
+$primeColor: #e2f3f5;
+$secondaryColor: #3d5af1;
+$lightColor: #22d1ee;
+$strongColor: #0e153a;
+
+.navbar{
+    background-color: $strongColor;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-height: 4.5rem; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar *{
+    font-size: 1rem;
+    color: $primeColor;
+    font-family: "Nunito Light";
+}
+.navbar__brand{
+    color: $primeColor;
+    font-family: "Nunito Bold";
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 769px) {
+    a{
+        border-right: .15em solid transparent;
+        padding-right: .5vh;
+    }
+    a:hover{
+        -webkit-animation: 1s blink step-end infinite;
+        -moz-animation: 1s blink step-end infinite;
+        -ms-animation: 1s blink step-end infinite;
+        -o-animation: 1s blink step-end infinite;
+        animation: 1s blink step-end infinite;
+    }
+    .navbar{
+        min-height: 6vh;
+        position: relative;
+        bottom: unset;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar *{
+        font-size: 2vh;
+    }
+    .navbar__brand{
+        font-size: 2.5vh;
+    }
+    .navbar__about{
+        margin-left: 1.5vh;
+    }
+    .navbar__contact{
+        margin-right: 1.5vh;
+    }
+    @keyframes #{blink} {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: $lightColor;
+        }
+    }
+      
+    @-moz-keyframes #{blink} {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: $lightColor;
+        }
+    }
+      
+    @-webkit-keyframes #{blink} {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: $lightColor;
+        }
+    }
+      
+    @-ms-keyframes #{blink} {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: $lightColor;
+        }
+    }
+      
+    @-o-keyframes #{blink} {
+        from, to {
+            border-color: transparent;
+        }
+        50% {
+            border-color: $lightColor;
+        }
+    }
+}
