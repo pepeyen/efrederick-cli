@@ -1,102 +1,74 @@
-$primeColor: #e2f3f5;
-$secondaryColor: #3d5af1;
-$lightColor: #22d1ee;
-$strongColor: #0e153a;
-
-.navbar{
-    background-color: $strongColor;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    min-height: 4.5rem; 
+$default: #d0d0d0;
+$darkDefault: #505050;
+$brightDefault: #f5f5f5;
+.navbar {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    margin: 1.25rem 0 2.5rem 0;
 }
-.navbar *{
-    font-size: 1rem;
-    color: $primeColor;
-    font-family: "Nunito Light";
-}
-.navbar__brand{
-    color: $primeColor;
-    font-family: "Nunito Bold";
-    font-size: 1.5rem;
+.navbar__brand  {
+    color: $default;
+    font-family: "Ubuntu Light";
+    font-size: 2.5rem;
+    padding-right: .5rem;
+    border-right: .5rem solid transparent;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
 }
 @media only screen and (min-width: 769px) {
-    a{
-        border-right: .15em solid transparent;
-        padding-right: .5vh;
-    }
-    a:hover{
-        -webkit-animation: 1s blink step-end infinite;
-        -moz-animation: 1s blink step-end infinite;
-        -ms-animation: 1s blink step-end infinite;
-        -o-animation: 1s blink step-end infinite;
-        animation: 1s blink step-end infinite;
-    }
-    .navbar{
-        min-height: 6vh;
-        position: relative;
-        bottom: unset;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .navbar *{
-        font-size: 2vh;
+    .navbar {
+        margin: 2.5vh 0 5vh 0;
     }
     .navbar__brand{
-        font-size: 2.5vh;
+        font-size: 4.1vh;
+        padding-right: .25vh;
+        border-right: .9vh solid transparent;
     }
-    .navbar__about{
-        margin-left: 1.5vh;
+}
+@keyframes #{blink} {
+    from, to {
+        border-color: transparent;
     }
-    .navbar__contact{
-        margin-right: 1.5vh;
+    50% {
+        border-color: $brightDefault;
     }
-    @keyframes #{blink} {
-        from, to {
-            border-color: transparent;
-        }
-        50% {
-            border-color: $lightColor;
-        }
+}
+  
+@-moz-keyframes #{blink} {
+    from, to {
+        border-color: transparent;
     }
-      
-    @-moz-keyframes #{blink} {
-        from, to {
-            border-color: transparent;
-        }
-        50% {
-            border-color: $lightColor;
-        }
+    50% {
+        border-color: $brightDefault;
     }
-      
-    @-webkit-keyframes #{blink} {
-        from, to {
-            border-color: transparent;
-        }
-        50% {
-            border-color: $lightColor;
-        }
+}
+  
+@-webkit-keyframes #{blink} {
+    from, to {
+        border-color: transparent;
     }
-      
-    @-ms-keyframes #{blink} {
-        from, to {
-            border-color: transparent;
-        }
-        50% {
-            border-color: $lightColor;
-        }
+    50% {
+        border-color: $brightDefault;
     }
-      
-    @-o-keyframes #{blink} {
-        from, to {
-            border-color: transparent;
-        }
-        50% {
-            border-color: $lightColor;
-        }
+}
+  
+@-ms-keyframes #{blink} {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: $brightDefault;
+    }
+}
+  
+@-o-keyframes #{blink} {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: $brightDefault;
     }
 }
