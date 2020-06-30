@@ -41,16 +41,20 @@ $status: #7e8e50;
 .page-command__output-text{
     color: $info;
     display: inline-block;
+    font-family: "Ubuntu Mono Regular";
+    text-align: left;
+}
+.page-command__output-text{
     margin: 2rem .5rem 0 0;
+}
+.default-output{
     padding: 1rem;
     padding-top: 1.5rem;
     padding-right: 5rem;
     border: .15rem solid $darkDefault;
-    font-family: "Ubuntu Mono Regular";
-    text-align: left;
 }
 .page-command__output{    
-    height: 38rem;
+    min-height: 38rem;
     padding-top: .5rem;
     padding-left: .5rem;
 }
@@ -71,7 +75,6 @@ $status: #7e8e50;
 .page-command__input-text{
     background-color: transparent;
     border: none;
-    width: 14rem;
 }
 @media only screen and (min-width: 769px) {
     .page-command__block{
@@ -89,12 +92,14 @@ $status: #7e8e50;
         font-size: 2.15vh;
     }
     .page-command__output{    
-        height: 80vh;
+        min-height: 80vh;
         padding-top: 1vh;
         padding-left: 1vh;
     }
     .page-command__output-text{
         margin: 4vh 0 0;
+    }
+    .default-output{
         padding: 2vh;
         padding-top: 3vh;
         padding-right: 10vh;
@@ -108,8 +113,5 @@ $status: #7e8e50;
     }
     .page-command__input *{
         font-size: 2vh;
-    }
-    .page-command__input-text{
-        width: 150vh;
     }
 }
