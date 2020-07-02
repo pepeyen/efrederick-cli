@@ -1,5 +1,6 @@
 import React from 'react';
-import './css/ContactMe.scss'
+import '../../index.scss';
+
 function ContactMe() {
     return (
       <div className = "contact-me-output">    

@@ -1,0 +1,94 @@
+$grey: #d0d0d0;
+$brightGrey: #f5f5f5;
+$cyan: #7dd6cf;
+
+.cli{
+    display: flex;
+}
+.cli__block{
+    color: $grey;
+    border: .05rem dashed $grey;
+    width: 170vh;
+    flex: 1;
+    margin: 0 .5rem 0 .5rem;
+    font-family: "Ubuntu Mono Bold";
+    font-size: 1.2rem;
+}
+.cli__output{
+    flex-grow: 1;
+}
+.cli__output-text{
+    margin: 2rem .5rem 0 0;
+    display: inline-block;
+    font-family: "Ubuntu Mono Regular";
+    text-align: left;
+}
+.cli__output{    
+    min-height: 38rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+}
+.cli__input{
+    border-top: .05rem dashed $grey;
+    min-height: 2rem;
+    padding-left: .5rem;
+}
+.cli__input *{
+    color: $brightGrey;
+    font-family: "Ubuntu Mono Regular";
+    font-size: 1rem;
+}
+.cli__input-label{
+    color: $cyan;
+}
+.cli__input-text{
+    background-color: transparent;
+    border: none;
+}
+.cli__input-label , .cli__input-text{
+    margin-top: .35rem;
+}
+.cli__input-submit{
+    background-color: transparent;
+    float: right;
+    border: none;
+    min-height: 2rem;
+    border-left: .05rem dashed $grey;
+    cursor: pointer;
+}
+@media only screen and (min-width: 769px) {
+    .cli__block{
+        border: .1vh dashed $grey;
+        margin: 0 5vh 0 5vh;
+        font-size: 1.8vh;
+    }
+    .cli__block .cli__status{
+        font-size: 2.7vh;
+    }
+    .cli__block .cli__info{
+        font-size: 2.3vh;
+    }
+    .cli__output{    
+        min-height: 80vh;
+        padding-top: 1vh;
+        padding-left: 1vh;
+    }
+    .cli__output-text{
+        margin: 1vh .25vh 0 0;
+    }
+    .cli__input{
+        border-top: .1vh dashed $grey;
+        min-height: 4vh;
+        padding-left: 1vh;
+    }
+    .cli__input *{
+        font-size: 2vh;
+    }
+    .cli__input-label , .cli__input-text{
+        margin-top: none;
+    }
+    .cli__input-submit{
+        min-height: 4vh;
+        border-left: .1vh dashed $grey;
+    }
+}

@@ -1,0 +1,44 @@
+$grey: #d0d0d0;
+$brightGrey: #f5f5f5;
+$darkGrey: #505050;
+$red: #ac4142;
+$cyan: #7dd6cf;
+$green: #7e8e50;
+$yellow: #e5b567;
+$purple: #9f4e85;
+
+.cli__message{
+    color: $grey;
+}
+.cli__message-system{
+    color: $green;
+}
+.cli__message-sender{
+    color: $red;
+}
+.cli__message-sender-reference{
+    color: $purple;
+}
+.cli__message-crucial{
+    color: $cyan;
+}
+.cli__message-command{
+    color: $yellow;
+}
+.cli__status{
+    color: $green;
+    font-size: 1.45rem;
+}
+.cli__source{
+    color:  $darkGrey;
+    font-size: 1.225rem;
+}
+@media only screen and (min-width: 769px) {
+    .cli__status{
+        font-size: 2.7vh;
+    }
+    .cli__source{
+        font-size: 2.3vh;
+    }
+    
+}

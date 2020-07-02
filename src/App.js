@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './comp/Navbar/Navbar';
-import PageCommandBlock from './comp/Page-Command-Block/Page-Command-Block';
+import PageCommandBlock from './comp/Command-Block/Command-Block';
+import Footer from './comp/Footer/Footer';
 import './reset.css';
 import './App.scss';
 
@@ -11,10 +12,10 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <PageCommandBlock/>
+        <PageCommandBlock />
       </main>
       <footer>
-
+        <Footer />
       </footer>
     </React.Fragment>
   );

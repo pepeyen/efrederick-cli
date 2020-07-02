@@ -1,0 +1,28 @@
+$default: #d0d0d0;
+$brightInfo: #7dd6cf;
+
+.footer{
+    width: 100%;
+    min-height: 10vh;
+    text-align: center;
+    padding-top: 10vh;
+}
+.footer__content{
+    color: $default;
+    font-family: "Ubuntu Mono Bold";
+}
+.footer__link{
+    color: $brightInfo;
+    text-decoration: none;
+}
+.footer__language{
+    color: $default;
+    font-family: "Ubuntu Mono Bold";
+    background-color: transparent;
+    border: none;
+    font-size: 1.5vh;
+}
+.footer__language:hover{
+    color: $brightInfo;
+    cursor: pointer;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import './css/Competences.scss'
+import '../../index.scss';
+
 function Competences() {
     return (
       <div className = "competences-output">    
