@@ -33,23 +33,6 @@ $purple: #9f4e85;
 .cli__message-command{
     color: $yellow;
 }
-.cli__status{
-    color: $green;
-    font-size: 1.45rem;
-}
-.cli__source{
-    color:  $darkGrey;
-    font-size: 1.225rem;
-}
-@media only screen and (min-width: 769px) {
-    .cli__status{
-        font-size: 2.7vh;
-    }
-    .cli__source{
-        font-size: 2.3vh;
-    }
-    
-}
 @keyframes messageReceived {
     0% {
         visibility: hidden;

@@ -1,6 +1,9 @@
 $grey: #d0d0d0;
 $brightGrey: #f5f5f5;
 $cyan: #7dd6cf;
+$blue: #6c99bb;
+$green: #7e8e50;
+$darkGrey: #505050;
 
 .cli{
     display: flex;
@@ -13,6 +16,16 @@ $cyan: #7dd6cf;
     margin: 0 .5rem 0 .5rem;
     font-family: "Ubuntu Mono Bold";
     font-size: 1.2rem;
+}
+.cli__status{
+    color:  $green;
+    font-size: 2rem;
+}
+.cli__info{
+    font-size: 1.8rem;
+}
+.cli__source{
+    color:  $darkGrey;
 }
 .cli__output{
     flex-grow: 1;
@@ -68,11 +81,11 @@ $cyan: #7dd6cf;
         margin: 0 5vh 0 5vh;
         font-size: 1.8vh;
     }
-    .cli__block .cli__status{
-        font-size: 2.7vh;
+    .cli__status{
+        font-size: 4vh;
     }
-    .cli__block .cli__info{
-        font-size: 2.3vh;
+    .cli__info{
+        font-size: 3vh;
     }
     .cli__output{    
         min-height: 80vh;

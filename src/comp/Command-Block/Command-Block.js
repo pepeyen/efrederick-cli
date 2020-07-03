@@ -13,7 +13,7 @@ class PageCommandBlock extends Component {
     super(props);
     this.state = {
       commandInput : '',
-      commandOutput : <Competences />
+      commandOutput : <Home />
     };
   }
   cliNav(event){
