@@ -2,9 +2,12 @@ import React from 'react';
 import '../../index.scss';
 function Projects() {
     return (
-      <div className = "projects-output">    
-        <p>This is the <strong>projects page</strong></p><br></br>
-      </div>
+      <React.Fragment> 
+        <p className = "cli__info">Running: <strong className = "cli__source"> Projects.sh </strong></p><br></br>
+        <div className = "cli__output-text">
+              
+        </div>
+      </React.Fragment>
     );
 }
 

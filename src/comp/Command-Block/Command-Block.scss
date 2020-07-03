@@ -17,21 +17,17 @@ $cyan: #7dd6cf;
 .cli__output{
     flex-grow: 1;
 }
-.cli__output-text{
-    margin: 2rem .5rem 0 0;
-    display: inline-block;
-    font-family: "Ubuntu Mono Regular";
-    text-align: left;
-}
 .cli__output{    
     min-height: 38rem;
     padding-top: .5rem;
     padding-left: .5rem;
 }
 .cli__input{
+    display: flex;
     border-top: .05rem dashed $grey;
     min-height: 2rem;
     padding-left: .5rem;
+    flex-direction: row;  
 }
 .cli__input *{
     color: $brightGrey;
@@ -42,11 +38,17 @@ $cyan: #7dd6cf;
     color: $cyan;
 }
 .cli__input-text{
+    height: 1rem;
+    flex-grow: 2;
     background-color: transparent;
     border: none;
+    margin: 0 .5rem 0 .5rem;
+}
+.cli__input-text:focus{
+    outline-width: 0;
 }
 .cli__input-label , .cli__input-text{
-    margin-top: .35rem;
+    margin-top: .5rem;
 }
 .cli__input-submit{
     background-color: transparent;
@@ -57,6 +59,10 @@ $cyan: #7dd6cf;
     cursor: pointer;
 }
 @media only screen and (min-width: 769px) {
+    .cli__input-text{
+        height: 2vh;
+        margin: 0 1vh 0 1vh;
+    }
     .cli__block{
         border: .1vh dashed $grey;
         margin: 0 5vh 0 5vh;
@@ -85,7 +91,7 @@ $cyan: #7dd6cf;
         font-size: 2vh;
     }
     .cli__input-label , .cli__input-text{
-        margin-top: none;
+        margin-top: 1vh;
     }
     .cli__input-submit{
         min-height: 4vh;

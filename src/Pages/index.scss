@@ -6,9 +6,17 @@ $cyan: #7dd6cf;
 $green: #7e8e50;
 $yellow: #e5b567;
 $purple: #9f4e85;
-
+.--msg-1,.--msg-2,.--msg-3,.--msg-4,.--msg-5,.--msg-6,.--msg-7,.--msg-8,.--msg-9,.--msg-10,.--msg-11,.--msg-12,.--msg-13,.--msg-14{
+    animation-name: messageReceived;
+    -webkit-animation-name: messageReceived;
+    -moz-animation-name: messageReceived;
+    -o-animation-name: messageReceived;
+}
 .cli__message{
     color: $grey;
+}
+.cli__message-error{
+    color: $red;
 }
 .cli__message-system{
     color: $green;
@@ -41,4 +49,48 @@ $purple: #9f4e85;
         font-size: 2.3vh;
     }
     
+}
+@keyframes messageReceived {
+    0% {
+        visibility: hidden;
+      }
+    99% {
+        visibility: hidden;
+      }
+    100% {
+        visibility: visible;
+    }
+}
+@-webkit-keyframes messageReceived {
+    0% {
+        visibility: hidden;
+      }
+    99% {
+        visibility: hidden;
+      }
+    100% {
+        visibility: visible;
+    }
+} 
+@-moz-keyframes messageReceived {
+    0% {
+        visibility: hidden;
+      }
+    99% {
+        visibility: hidden;
+      }
+    100% {
+        visibility: visible;
+    }
+}
+@-o-keyframes messageReceived {
+    0% {
+        visibility: hidden;
+      }
+    99% {
+        visibility: hidden;
+      }
+    100% {
+        visibility: visible;
+    }
 }

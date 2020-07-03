@@ -5,6 +5,7 @@ import About from '../../Pages/en_us/About/About';
 import Competences from '../../Pages/en_us/Competences/Competences';
 import Projects from '../../Pages/en_us/Projects/Projects';
 import ContactMe from '../../Pages/en_us/ContactMe/ContactMe';
+import Error from '../../Pages/en_us/Error/Error';
 import './Command-Block.scss';
 
 class PageCommandBlock extends Component {
@@ -12,7 +13,7 @@ class PageCommandBlock extends Component {
     super(props);
     this.state = {
       commandInput : '',
-      commandOutput : <Home />
+      commandOutput : <Competences />
     };
   }
   cliNav(event){
@@ -39,6 +40,7 @@ class PageCommandBlock extends Component {
         this.setState({ commandOutput : <div>Pepeyen#3219</div> });
         break;       
       default:
+        this.setState({ commandOutput : <Error issuedCommand = {this.state.commandInput}/> });
         break;
     }
   }
@@ -59,7 +61,6 @@ class PageCommandBlock extends Component {
         <div className = "cli__block">
           <div className = "cli__output">
             <p className = "cli__status">Compiled successfully!</p><br></br>
-            <p className = "cli__info">Running: <strong className = "cli__source"> Command-Block.js </strong></p><br></br>
             <div className = "cli__output-text">
               {this.state.commandOutput}
             </div>
