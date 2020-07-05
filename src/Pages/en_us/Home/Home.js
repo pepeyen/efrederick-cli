@@ -3,7 +3,7 @@ import '../../css/index.scss';
 function Home() {
     return (
         <React.Fragment>
-            <p className = "cli__info">Running: <strong className = "cli__source"> Home.sh </strong></p><br></br>
+            <p className = "cli__info">Running: <strong className = "cli__source"> Home.sh</strong></p><br></br>
             <div className = "cli__output-text">
                 <p className = "cli__message"><strong className = "cli__message-sender ">{'<SYSTEM>'}</strong> This is a<strong className = "cli__message-crucial"> command line [cli]</strong>, created to connect <strong className = "cli__message-crucial">YOU</strong> and <strong className = "cli__message-crucial">eFrederick</strong>.</p><br></br>
                 <p className = "cli__message"><strong className = "cli__message-sender">{'<SYSTEM>'}</strong> This connection is private and secure.</p><br></br>

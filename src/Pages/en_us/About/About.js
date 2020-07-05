@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return (
       <React.Fragment>
-        <p className = "cli__info">Running: <strong className = "cli__source"> About.sh </strong></p><br></br>
+        <p className = "cli__info">Running: <strong className = "cli__source"> About.sh</strong></p><br></br>
         <div className = "cli__output-text">
           <p className = "cli__message-system --msg-1"><strong className = "cli__message-sender">{'<SYSTEM>'}</strong> CHAT INTIALIZED WITH <strong className = "cli__message-sender-reference">eFrederick</strong></p><br></br>
           <p className = "cli__message --msg-2"><strong className = "cli__message-sender">{'<eFrederick>'}</strong> Hi i'm<strong className = "cli__message-crucial"> Erick Frederick</strong> also known as <strong className = "cli__message-crucial">eFrederick</strong>, nice to meet you!</p><br></br>

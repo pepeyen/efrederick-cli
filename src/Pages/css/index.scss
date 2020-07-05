@@ -33,6 +33,31 @@ $purple: #9f4e85;
 .cli__message-command{
     color: $yellow;
 }
+.cli__project{
+    color: $yellow;
+}
+.cli__link{
+    color: $grey;
+}
+.cli__link:hover{
+    color: $green;
+}
+.deactivated{
+    color: $darkGrey;
+}
+.cli__rtp-connection {
+    font-family: "Ubuntu Mono Regular";
+    color: $cyan;
+}
+.cli__rtp-email, .cli__rtp-text, .cli__rtp-button{
+    font-family: "Ubuntu Mono Regular";
+    color: $grey;
+    border-color: $grey;
+}
+.cli__rtp-button:hover{
+    color: $green;
+    border-color: $green;
+}
 @keyframes messageReceived {
     0% {
         visibility: hidden;
