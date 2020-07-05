@@ -1,5 +1,5 @@
 import React from 'react';
-import './Competences.scss';
+import '../../css/competences.scss';
 function Competences() {
     return (
       <React.Fragment> 

@@ -1,6 +1,5 @@
 import React from 'react';
-import './home.scss';
-import '../../index.scss';
+import '../../css/index.scss';
 function Home() {
     return (
         <React.Fragment>

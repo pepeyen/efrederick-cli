@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../index.scss';
+import '../../css/index.scss';
 function ContactMe() {
     return (
       <React.Fragment>    

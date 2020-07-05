@@ -15,14 +15,3 @@ $brightInfo: #7dd6cf;
     color: $brightInfo;
     text-decoration: none;
 }
-.footer__language{
-    color: $default;
-    font-family: "Ubuntu Mono Bold";
-    background-color: transparent;
-    border: none;
-    font-size: 1.5vh;
-}
-.footer__language:hover{
-    color: $brightInfo;
-    cursor: pointer;
-}
