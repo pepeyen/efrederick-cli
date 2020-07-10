@@ -66,8 +66,10 @@ class PageCommandBlock extends Component {
             </div>
           </div>
           <div className = "cli__input">
-            <label className = "cli__input-label" htmlFor="cli__input-text">eUser@eFrederick:~$  </label>
-            <input autoFocus className = "cli__input-text" name = "cli__input-text"  type="text" onChange={ this.__handleChange} onKeyDown={this.__handleKeyDown}/>
+            <div className = "cli__input-text-container">
+              <label className = "cli__input-label" htmlFor="cli__input-text">eUser@eFrederick:~$</label>
+              <input autoFocus className = "cli__input-text" name = "cli__input-text"  type="text" onChange={ this.__handleChange} onKeyDown={this.__handleKeyDown}/>
+            </div>
             <input className = "cli__input-submit" onClick={this.__handleClick} type="button" value = "Submit"/>
           </div>
         </div>

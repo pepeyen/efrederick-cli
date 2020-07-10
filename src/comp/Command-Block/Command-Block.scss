@@ -5,19 +5,19 @@ $blue: #6c99bb;
 $green: #7e8e50;
 $darkGrey: #505050;
 
-.cli{
-    display: flex;
+.cli{ 
+    display: grid;
 }
 .cli__block{
     color: $grey;
-    border: .05rem dashed $grey;
     flex: 1;
     font-family: "Ubuntu Mono Bold";
+    border: .05rem dashed $grey;
     font-size: 1.2rem;
 }
 .cli__status{
     color:  $green;
-    font-size: 2rem;
+    font-size: 1.9rem;
 }
 .cli__info{
     font-size: 1.8rem;
@@ -25,56 +25,57 @@ $darkGrey: #505050;
 .cli__source{
     color:  $darkGrey;
 }
-.cli__output{
-    flex-grow: 1;
-}
-.cli__output{    
-    min-height: 38rem;
+.cli__output{   
+    flex: 1; 
+    min-height: 132vw;
     padding-top: .5rem;
     padding-left: .5rem;
 }
+
 .cli__input{
     display: flex;
+    flex-direction: column;  
     border-top: .05rem dashed $grey;
     min-height: 2rem;
-    padding-left: .5rem;
-    flex-direction: row;  
 }
 .cli__input *{
     color: $brightGrey;
-    font-family: "Ubuntu Mono Regular";
+    font-family: "Ubuntu Light";
     font-size: 1rem;
 }
+.cli__input-text-container{
+    display: flex;
+    justify-content: row;
+    margin: .5rem 0;
+}
 .cli__input-label{
+    font-family: "Ubuntu Mono Regular";
     color: $cyan;
+    margin-left: .25rem;
 }
 .cli__input-text{
-    height: 1rem;
-    flex-grow: 2;
     background-color: transparent;
     border: none;
-    margin: 0 .5rem 0 .5rem;
+    flex: 1;
+    height: 1rem;
+    margin-left: .25rem;
 }
 .cli__input-text:focus{
-    outline-width: 0;
-}
-.cli__input-label , .cli__input-text{
-    margin-top: .5rem;
+    outline-width: 0; 
 }
 .cli__input-submit{
     background-color: transparent;
-    float: right;
     border: none;
-    min-height: 2rem;
-    border-left: .05rem dashed $grey;
     cursor: pointer;
+    padding: 0;
+    min-height: 4rem;
+    border-top: .05rem dashed $grey;
+    outline:none;
 }
 @media only screen and (min-width: 769px) {
-    .cli__input-text{
-        height: 2vh;
-        margin: 0 1vh 0 1vh;
-    }
     .cli__block{
+        border-top: none;
+        border-bottom: none;
         border: .1vh dashed $grey;
         margin: 0 5vh 0 5vh;
         font-size: 1.8vh;
@@ -94,18 +95,29 @@ $darkGrey: #505050;
         margin: 1vh .25vh 0 0;
     }
     .cli__input{
+        flex-direction: row; 
         border-top: .1vh dashed $grey;
         min-height: 4vh;
-        padding-left: 1vh;
     }
     .cli__input *{
         font-size: 2vh;
     }
-    .cli__input-label , .cli__input-text{
-        margin-top: 1vh;
+    .cli__input-text-container{
+        display: flex;
+        flex: 2;
+        margin: 1vh .5vh 0;
+    }
+    .cli__input-label{
+        margin-right: none;
+    }
+    .cli__input-text{
+        min-height: 2vh;
+        margin: 0 0 0 1vh;
     }
     .cli__input-submit{
         min-height: 4vh;
+        min-width: 10vh;
+        border-top: none;
         border-left: .1vh dashed $grey;
     }
 }

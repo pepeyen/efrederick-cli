@@ -13,20 +13,20 @@ class ContactMe extends Component {
     const { status } = this.state;
     return (
       <React.Fragment>     
-        <p className = "cli__info">Running: <strong className = "cli__source"> Projects.sh</strong></p><br></br>
+        <div className = "cli__info">Running: <div className = "cli__source"> Projects.sh</div></div><br></br>
         <div className = "cli__rtp-connection">
-          <p>Get in touch with <strong className = "cli__message-sender-reference">eFrederick</strong></p><br></br>
+          <div className = "cli__help">Get in touch with <div className = "cli__message-sender-reference">eFrederick</div></div><br></br>
           <form
           onSubmit={this.submitForm}
           action="https://formspree.io/mgennyyw"
           method="POST"
           >
             <div className = "cli__rtp-input">
-              <label>Email:</label>
+              <label htmlFor = "email">Email</label>
               <input className = "cli__rtp-email" type="email" name="email" />
             </div>
             <div className = "cli__rtp-input">
-              <label>Message:</label>
+              <label htmlFor = "message">Message</label>
               <textarea className = "cli__rtp-text" name="message" />
             </div>
             <div className = "cli__rtp-submit">

@@ -5,7 +5,7 @@ function Navbar() {
     return (
       <div className = "navbar">
           <div className = "navbar__link">
-            <a className = "navbar__brand" href = "/#">eFrederick</a>
+            <div className = "navbar__brand">eFrederick</div>
           </div>        
       </div>
     );

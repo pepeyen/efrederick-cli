@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className = "footer">
       <div className = "footer__content">
-          Made with love by <a className = "footer__link" href = "https://github.com/pepeyen">Erick</a>
+          Made with love by <a className = "footer__link" href = "https://github.com/pepeyen" target = "_blank" rel="noopener noreferrer">Erick</a>
       </div>
     </div>
   );

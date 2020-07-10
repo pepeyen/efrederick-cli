@@ -16,7 +16,7 @@ function Projects() {
                 cs-tech <a className = "cli__link" href = "https://github.com/pepeyen/cs-tech" target = "_blank" rel="noopener noreferrer">&lt;repo&gt;</a> <a className = "cli__link" href = "https://pepeyen.github.io/cs-tech/#/" target = "_blank" rel="noopener noreferrer">&lt;demo&gt;</a>
               </div>
               <div className = "cli__project">
-                portfolio <a className = "cli__link" href = "https://github.com/pepeyen/portfolio" target = "_blank" rel="noopener noreferrer">&lt;repo&gt;</a> <a className = "cli__link" href = "/">&lt;demo&gt;</a>
+                portfolio <a className = "cli__link" href = "https://github.com/pepeyen/portfolio" target = "_blank" rel="noopener noreferrer">&lt;repo&gt;</a> &lt;this webapp&gt;
               </div>
         </div>
       </React.Fragment>
