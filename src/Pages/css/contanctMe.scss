@@ -47,11 +47,43 @@
     border-width: .05rem;
     font-size: .9rem;
 }
-
+.cli__rtp-outside-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.github , .linkedin, .twitter{
+    display: inline-block;
+    margin: 1rem 0 0;
+    width: 3.125rem;
+    height: 3.125rem;
+}
+.linkedin, .twitter{
+    margin-left: 3rem;
+}
+.github{
+    background-image: url('../../images/github.svg');
+}
+.linkedin{
+    background-image: url('../../images/linkedin.svg');
+}
+.twitter{
+    background-image: url('../../images/twitter.svg');
+}
+.github:hover{
+    background-image: url('../../images/github-hovered.svg');
+}
+.linkedin:hover{
+    background-image: url('../../images/linkedin-hovered.svg');
+}
+.twitter:hover{
+    background-image: url('../../images/twitter-hovered.svg');
+}
 @media only screen and (min-width: 769px) {
     .cli__rtp-connection {
         align-items: baseline;
-        margin: 0;
+        margin: 2.5vh 0 0;
         font-size: 2vh;
     }
     .cli__rtp-input {
@@ -72,8 +104,7 @@
         padding-left: .5vh;
     }
     .cli__rtp-submit {
-        text-align: left;
-        margin-top: 1.5vh;  
+        display: inline-block;
         border-width: .1vh;
         font-size: 1.8vh;
     }  
@@ -81,4 +112,17 @@
         width: 10vh;
         min-height: 4vh;
     }  
+    .cli__rtp-outside-media{
+        display: inline-block;
+        position: absolute;
+        margin: 0 0 0 9.3vh;
+    }
+    .github , .linkedin, .twitter{
+        margin: .5vh 0 0 0;
+        width: 5.2vh;
+        height: 5.25vh;
+    }
+    .linkedin, .twitter{
+        margin: 0 0 0 .3vh;
+    }
 }

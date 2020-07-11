@@ -16,13 +16,16 @@ $darkGrey: #505050;
     font-size: 1.2rem;
 }
 .cli__status{
+    display: inline-block;
     color:  $green;
     font-size: 1.9rem;
 }
 .cli__info{
+    display: inline-block;
     font-size: 1.8rem;
 }
 .cli__source{
+    display: inline-block;
     color:  $darkGrey;
 }
 .cli__output{   
@@ -31,7 +34,6 @@ $darkGrey: #505050;
     padding-top: .5rem;
     padding-left: .5rem;
 }
-
 .cli__input{
     display: flex;
     flex-direction: column;  

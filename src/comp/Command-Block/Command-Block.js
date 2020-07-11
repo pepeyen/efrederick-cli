@@ -13,7 +13,7 @@ class PageCommandBlock extends Component {
     super(props);
     this.state = {
       userInput : '',
-      pageOutput : <Home />
+      pageOutput : <ContactMe />
     };
   }
   __handleKeyDown = (event) => {

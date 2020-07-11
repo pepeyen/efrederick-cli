@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../css/index.scss';
 import '../../css/contanctMe.scss';
+
 class ContactMe extends Component {
   constructor(props) {
     super(props);
@@ -29,9 +30,16 @@ class ContactMe extends Component {
               <label htmlFor = "message">Message</label>
               <textarea className = "cli__rtp-text" name="message" />
             </div>
-            <div className = "cli__rtp-submit">
-              {status === "SUCCESS" ? <p>Thanks!</p> : <button className = "cli__rtp-button">Submit</button>}
-              {status === "ERROR" && <p>Ooops! There was an error.</p>}
+            <div className = "cli__rtp-social">
+              <div className = "cli__rtp-submit">
+                {status === "SUCCESS" ? <p>Thanks!</p> : <button className = "cli__rtp-button">Submit</button>}
+                {status === "ERROR" && <p>Ooops! There was an error.</p>}
+              </div>
+              <div className = "cli__rtp-outside-media">
+                <a href="https://github.com/pepeyen" target="_blank" rel="noopener noreferrer" className = "cli__rtp-link"><div className="github"></div></a>
+                <a href="https://www.linkedin.com/in/erick-frederick-c/" target="_blank" rel="noopener noreferrer" className = "cli__rtp-link"><div className="linkedin"></div></a>
+                <a href="https://twitter.com/pepeyem"  target="_blank" rel="noopener noreferrer" className = "cli__rtp-link"><div className="twitter"></div></a>
+              </div>
             </div>
           </form>
         </div>
