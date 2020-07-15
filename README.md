@@ -34,3 +34,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+
+![github stats](https://github-readme-stats.vercel.app/api?username=pepeyen&show_icons=true)
