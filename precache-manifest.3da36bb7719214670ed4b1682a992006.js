@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35425b7018ff967e14d7b75a5e7637ad",
+    "revision": "cb8054b395c6f870c179080da00de830",
     "url": "/efrederick-cli/index.html"
   },
   {
-    "revision": "44c3b383a77ab6654c60",
-    "url": "/efrederick-cli/static/css/main.f1bf422d.chunk.css"
+    "revision": "18445278fd9ff1d355a6",
+    "url": "/efrederick-cli/static/css/main.1fa44f54.chunk.css"
   },
   {
     "revision": "a0ced9094d217c05a4fa",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/efrederick-cli/static/js/2.21bb6d47.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "44c3b383a77ab6654c60",
-    "url": "/efrederick-cli/static/js/main.833512bb.chunk.js"
+    "revision": "18445278fd9ff1d355a6",
+    "url": "/efrederick-cli/static/js/main.b9835677.chunk.js"
   },
   {
     "revision": "1b262b4093097d6d071a",
@@ -48,27 +48,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/efrederick-cli/static/media/UbuntuMono-Regular.e097b716.ttf"
   },
   {
-    "revision": "78438a992c80f1e5687d6b4b7ec248ad",
-    "url": "/efrederick-cli/static/media/github-hovered.78438a99.svg"
+    "revision": "a838cd6774f849fc50abfff3931d67fe",
+    "url": "/efrederick-cli/static/media/github-hovered.a838cd67.svg"
   },
   {
-    "revision": "a1b285368c380c90870f212869ba4330",
-    "url": "/efrederick-cli/static/media/github.a1b28536.svg"
+    "revision": "36063e644d9cf3835b73b9c8b7867cc9",
+    "url": "/efrederick-cli/static/media/github.36063e64.svg"
   },
   {
-    "revision": "586fa3197b9c36a9269980bc2051f2b6",
-    "url": "/efrederick-cli/static/media/linkedin-hovered.586fa319.svg"
+    "revision": "74e5fc0ef277535912dd8042f2fbe919",
+    "url": "/efrederick-cli/static/media/linkedin-hovered.74e5fc0e.svg"
   },
   {
-    "revision": "3b9585b0372e9d900d8bdd9bc111b660",
-    "url": "/efrederick-cli/static/media/linkedin.3b9585b0.svg"
+    "revision": "55fa452dd1b0284b4792de8c5262d664",
+    "url": "/efrederick-cli/static/media/linkedin.55fa452d.svg"
   },
   {
-    "revision": "14eee3f6952d04cc3fd8c419ca0b1e6b",
-    "url": "/efrederick-cli/static/media/twitter-hovered.14eee3f6.svg"
+    "revision": "17072769c069d9e0b6e1f56e94999ad3",
+    "url": "/efrederick-cli/static/media/twitter-hovered.17072769.svg"
   },
   {
-    "revision": "7d305de09ab1fa307cdc2a0ab2ce5995",
-    "url": "/efrederick-cli/static/media/twitter.7d305de0.svg"
+    "revision": "42b1421a1a3e57a9d8b1fcaadce9073b",
+    "url": "/efrederick-cli/static/media/twitter.42b1421a.svg"
   }
 ]);

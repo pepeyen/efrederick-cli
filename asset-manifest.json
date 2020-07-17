@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/efrederick-cli/static/css/main.f1bf422d.chunk.css",
-    "main.js": "/efrederick-cli/static/js/main.833512bb.chunk.js",
-    "main.js.map": "/efrederick-cli/static/js/main.833512bb.chunk.js.map",
+    "main.css": "/efrederick-cli/static/css/main.1fa44f54.chunk.css",
+    "main.js": "/efrederick-cli/static/js/main.b9835677.chunk.js",
+    "main.js.map": "/efrederick-cli/static/js/main.b9835677.chunk.js.map",
     "runtime-main.js": "/efrederick-cli/static/js/runtime-main.3add876f.js",
     "runtime-main.js.map": "/efrederick-cli/static/js/runtime-main.3add876f.js.map",
     "static/js/2.21bb6d47.chunk.js": "/efrederick-cli/static/js/2.21bb6d47.chunk.js",
     "static/js/2.21bb6d47.chunk.js.map": "/efrederick-cli/static/js/2.21bb6d47.chunk.js.map",
     "index.html": "/efrederick-cli/index.html",
-    "precache-manifest.c130bc2d29afa29d8ee68307e1f3a77e.js": "/efrederick-cli/precache-manifest.c130bc2d29afa29d8ee68307e1f3a77e.js",
+    "precache-manifest.3da36bb7719214670ed4b1682a992006.js": "/efrederick-cli/precache-manifest.3da36bb7719214670ed4b1682a992006.js",
     "service-worker.js": "/efrederick-cli/service-worker.js",
-    "static/css/main.f1bf422d.chunk.css.map": "/efrederick-cli/static/css/main.f1bf422d.chunk.css.map",
+    "static/css/main.1fa44f54.chunk.css.map": "/efrederick-cli/static/css/main.1fa44f54.chunk.css.map",
     "static/js/2.21bb6d47.chunk.js.LICENSE.txt": "/efrederick-cli/static/js/2.21bb6d47.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/efrederick-cli/static/media/UbuntuMono-Regular.e097b716.ttf",
-    "static/media/contanctMe.scss": "/efrederick-cli/static/media/twitter.7d305de0.svg"
+    "static/media/contanctMe.scss": "/efrederick-cli/static/media/twitter.42b1421a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3add876f.js",
     "static/js/2.21bb6d47.chunk.js",
-    "static/css/main.f1bf422d.chunk.css",
-    "static/js/main.833512bb.chunk.js"
+    "static/css/main.1fa44f54.chunk.css",
+    "static/js/main.b9835677.chunk.js"
   ]
 }
