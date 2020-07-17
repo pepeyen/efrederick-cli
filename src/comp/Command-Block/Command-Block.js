@@ -13,7 +13,7 @@ class PageCommandBlock extends Component {
     super(props);
     this.state = {
       userInput : '',
-      pageOutput : <ContactMe />
+      pageOutput : <Home />
     };
   }
   __handleKeyDown = (event) => {
@@ -60,7 +60,6 @@ class PageCommandBlock extends Component {
       <div className = "cli">    
         <div className = "cli__block">
           <div className = "cli__output">
-            <p className = "cli__status">Compiled successfully!</p><br></br>
             <div className = "cli__output-text">
               {this.state.pageOutput}
             </div>

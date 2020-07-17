@@ -1,6 +1,6 @@
 {
-  "homepage": "https://pepeyen.github.io/portfolio",
-  "name": "portfolio",
+  "homepage": "https://pepeyen.github.io/efrederick-cli",
+  "name": "efrederick-cli",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
