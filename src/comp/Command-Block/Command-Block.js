@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Home from '../../pages/en_us/Home/Home';
 import Help from '../../pages/en_us/Help/Help';
 import About from '../../pages/en_us/About/About';
-import Competences from '../../pages/en_us/Competences/Competences';
+import Competencies from '../../pages/en_us/Competencies/Competencies';
 import Projects from '../../pages/en_us/Projects/Projects';
 import ContactMe from '../../pages/en_us/ContactMe/ContactMe';
 import Error from '../../pages/en_us/Error/Error';
@@ -35,8 +35,8 @@ class PageCommandBlock extends Component {
       case '/about':
         this.setState({ pageOutput : <About /> });
         break;
-      case '/competences':
-        this.setState({ pageOutput : <Competences /> });
+      case '/competencies':
+        this.setState({ pageOutput : <Competencies /> });
         break;
       case '/projects':
         this.setState({ pageOutput : <Projects  /> });
