@@ -19,7 +19,7 @@ class ContactMe extends Component {
           <div className = "cli__help">Get in touch with <div className = "cli__message-sender-reference">eFrederick</div></div><br></br>
           <form
           onSubmit={this.submitForm}
-          action="https://formspree.io/mgennyyw"
+          action="https://formspree.io/mknqyejb"
           method="POST"
           >
             <div className = "cli__rtp-input">
