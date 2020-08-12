@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/efrederick-cli/static/css/main.1fa44f54.chunk.css",
-    "main.js": "/efrederick-cli/static/js/main.b9835677.chunk.js",
-    "main.js.map": "/efrederick-cli/static/js/main.b9835677.chunk.js.map",
+    "main.css": "/efrederick-cli/static/css/main.114981cc.chunk.css",
+    "main.js": "/efrederick-cli/static/js/main.854f0ce3.chunk.js",
+    "main.js.map": "/efrederick-cli/static/js/main.854f0ce3.chunk.js.map",
     "runtime-main.js": "/efrederick-cli/static/js/runtime-main.3add876f.js",
     "runtime-main.js.map": "/efrederick-cli/static/js/runtime-main.3add876f.js.map",
     "static/js/2.21bb6d47.chunk.js": "/efrederick-cli/static/js/2.21bb6d47.chunk.js",
     "static/js/2.21bb6d47.chunk.js.map": "/efrederick-cli/static/js/2.21bb6d47.chunk.js.map",
     "index.html": "/efrederick-cli/index.html",
-    "precache-manifest.3da36bb7719214670ed4b1682a992006.js": "/efrederick-cli/precache-manifest.3da36bb7719214670ed4b1682a992006.js",
+    "precache-manifest.cf6439d0a9eb26d09abe82b1ae068e84.js": "/efrederick-cli/precache-manifest.cf6439d0a9eb26d09abe82b1ae068e84.js",
     "service-worker.js": "/efrederick-cli/service-worker.js",
-    "static/css/main.1fa44f54.chunk.css.map": "/efrederick-cli/static/css/main.1fa44f54.chunk.css.map",
+    "static/css/main.114981cc.chunk.css.map": "/efrederick-cli/static/css/main.114981cc.chunk.css.map",
     "static/js/2.21bb6d47.chunk.js.LICENSE.txt": "/efrederick-cli/static/js/2.21bb6d47.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/efrederick-cli/static/media/UbuntuMono-Regular.e097b716.ttf",
     "static/media/contanctMe.scss": "/efrederick-cli/static/media/twitter.42b1421a.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3add876f.js",
     "static/js/2.21bb6d47.chunk.js",
-    "static/css/main.1fa44f54.chunk.css",
-    "static/js/main.b9835677.chunk.js"
+    "static/css/main.114981cc.chunk.css",
+    "static/js/main.854f0ce3.chunk.js"
   ]
 }
