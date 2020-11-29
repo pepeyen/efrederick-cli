@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b0126376f6b9d8ff0f98e5bff08714d",
+    "revision": "1d4743c9e4528f2a9653659fe4da5995",
     "url": "/efrederick-cli/index.html"
   },
   {
-    "revision": "064c5afedd04089a8d10",
+    "revision": "c7465dd67223b79cba95",
     "url": "/efrederick-cli/static/css/main.114981cc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/efrederick-cli/static/js/2.21bb6d47.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "064c5afedd04089a8d10",
-    "url": "/efrederick-cli/static/js/main.854f0ce3.chunk.js"
+    "revision": "c7465dd67223b79cba95",
+    "url": "/efrederick-cli/static/js/main.00e82669.chunk.js"
   },
   {
     "revision": "1b262b4093097d6d071a",
