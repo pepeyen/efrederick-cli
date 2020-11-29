@@ -1,24 +1,52 @@
 import React from 'react';
 import '../../css/index.scss';
 import '../../css/projects.scss';
+
 function Projects() {
+	const projectList = [{projectName: 'pyramid-3d'}, {projectName: 'oop-tech'}, 
+	{projectName: 'cs-tech', projectLiveURL: 'https://pepeyen.github.io/cs-tech'}, {projectName: 'efrederick-cli', projectLiveURL: 'this'}, 
+	{projectName: 'efrederick', projectLiveURL: 'https://efrederick.dev'}, {projectName: 'namah-front-end', projectLiveURL: 'https://pepeyen.github.io/namah-front-end'}, 
+	{projectName: 'namah-back-end', projectLiveURL: 'https://project-namah.herokuapp.com'}];
+
     return (
       <React.Fragment> 
         <p className = "cli__info">Running: <strong className = "cli__source"> Projects.sh</strong></p><br></br>
-        <div className = "cli__output-text">
-              <div className = "cli__project">
-                pyramid-3d <a className = "cli__link" href = "https://github.com/pepeyen/pyramid-3d" target = "_blank" rel="noopener noreferrer" >&lt;repo&gt;</a> <span className = "deactivated">&lt;demo&gt;</span>
-              </div>
-              <div className = "cli__project">
-                oop-tech <a className = "cli__link" href = "https://github.com/pepeyen/oop-tech" target = "_blank" rel="noopener noreferrer">&lt;repo&gt;</a> <span className = "deactivated">&lt;demo&gt;</span>
-              </div>
-              <div className = "cli__project">
-                cs-tech <a className = "cli__link" href = "https://github.com/pepeyen/cs-tech" target = "_blank" rel="noopener noreferrer">&lt;repo&gt;</a> <a className = "cli__link" href = "https://pepeyen.github.io/cs-tech/#/" target = "_blank" rel="noopener noreferrer">&lt;demo&gt;</a>
-              </div>
-              <div className = "cli__project">
-                portfolio <a className = "cli__link" href = "https://github.com/pepeyen/portfolio" target = "_blank" rel="noopener noreferrer">&lt;repo&gt;</a> &lt;this webapp&gt;
-              </div>
-        </div>
+        <ul className = "cli__output-text">
+			{
+				projectList.map((element, index) => {
+					if(element.projectLiveURL){
+						if(element.projectLiveURL === 'this'){
+							return(
+								<li
+									key={index}
+									className = "cli__project"
+								>
+									{element.projectName} <a className = "cli__link" href={`https://github.com/pepeyen/${element.projectName}`} target="_blank" rel="noopener noreferrer">&lt;repo&gt;</a>  &lt;this webapp&gt;
+								</li>
+							);
+						}else{
+							return(
+								<li
+									key={index}
+									className = "cli__project"
+								>
+									{element.projectName} <a className = "cli__link" href={`https://github.com/pepeyen/${element.projectName}`} target="_blank" rel="noopener noreferrer">&lt;repo&gt;</a> <a className="cli__link" href={element.projectLiveURL} target="_blank" rel="noopener noreferrer">&lt;live&gt;</a>
+								</li>
+							);
+						}
+					}else{
+						return(
+							<li
+								key={index}
+								className = "cli__project"
+							>
+								{element.projectName} <a className = "cli__link" href={`https://github.com/pepeyen/${element.projectName}`} target="_blank" rel="noopener noreferrer">&lt;repo&gt;</a> <span className="deactivated">&lt;live&gt;</span>
+							</li>
+						);
+					}
+				})
+			}
+        </ul>
       </React.Fragment>
     );
 }
