@@ -1,39 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![efrderick-cli](https://repository-images.githubusercontent.com/275693390/6b759e80-cf5d-11ea-8d8f-a22f2ac03276)](https://pepeyen.github.io/efrederick-cli/)
 
-## Available Scripts
+# efrederick
 
-In the project directory, you can run:
+### tl;dr
 
-### `npm install`
+ ```
+git clone https://github.com/pepeyen/efrederick-cli.git
+cd efrederick-cli/
+npm install
+npm start
+```
 
-To download the App dependecies at the node_modules file.
+Then open [http://localhost:3000/](http://localhost:3000/) to see your app.
 
-### `npm start`
+## About the Project
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project it's my portfolio with a more gimmick aproach.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Development
 
-### `npm test`
+Install dependencies:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+npm install
+```
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-
-![github stats](https://github-readme-stats.vercel.app/api?username=pepeyen&show_icons=true)
+```sh
+npm start
+```
