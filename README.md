@@ -1,4 +1,4 @@
-[![efrderick-cli](https://repository-images.githubusercontent.com/275693390/6b759e80-cf5d-11ea-8d8f-a22f2ac03276)](https://pepeyen.github.io/efrederick-cli/)
+[![efrderick-cli](https://raw.githubusercontent.com/pepeyen/efrederick-cli/master/.github/images/project-thumbnail.png)](https://pepeyen.github.io/efrederick-cli)
 
 # efrederick
 
