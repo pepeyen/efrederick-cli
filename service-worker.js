@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/efrederick-cli/precache-manifest.057255d3a1b93f527d025403b3a75bb1.js"
+  "/efrederick-cli/precache-manifest.ff8868817f36300a0c67df3604dd4e61.js"
 );
 
 self.addEventListener('message', (event) => {
